@@ -1,0 +1,44 @@
+Foi disponibilizado o .py e .ipynb
+
+Link do Notebook no colab:
+https://drive.google.com/file/d/1KkUOqKwUIIkmIY4nvkHASnJM2xK4dwV8/view?usp=sharing
+
+Para Executar no Linux:
+abra o terminal e vá até o diretório do arquivo bibliographyExtractor e digite:
+./bibliographyExtractor
+
+Para executar no Windows:
+executar o bibliographyExtractor.exe na pasta dist
+
+Funcionalidade:
+Insira uma bibliografia no formato semelhante a entrada:
+autor+(ano).titulo.Editora, os nomes dos autores precisam está no formato:
+
+Sobrenome, Inicial1. Inicial2. Inicial3. (+)
+
+As palavras não podem ser acentuadas. E os títulos só podem ter a primeira letra maíscula as demais minúsculas.
+
+Exemplos de entradas aceitas:
+Entrada 1:
+Manning, C. D., Manning, C. D. V., & Schutze, H. (1999). Foundations of statistical natural language processing more anything else. MIT press Edition
+
+Entrada 2:
+Viera, T., Silva, W. V., & Schutze, H. (1999). Foundations of statistical natural language processing. Harvard Edition'
+
+Entrada 3:
+Manning, C. D., Silva, W. V., Brito, P. H. S., & Schutze, H. (1999). Analise preditiva de churn com enfase em tecnicas de machine learning uma revisao. Scipione Edition
+
+Entrada 4:
+Silva, A. P., Manning, C. D., & Aquino, L. A. (1999). Localization system for autonomous mobile robots using machine learning methods and omnidirectional sonar. Atica press Edition
+
+Entrada 5:
+Pimentel, B. A., Silva, W. V., Brito, P. H. S., & Albuquerque, C. (2020). Desenvolvendo aplicacoes mlearning. FTD Edition
+
+O resultado apresenta as entidades:
+Autores:
+Ano:
+Título:
+Editora:
+
+
+
